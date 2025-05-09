@@ -260,7 +260,7 @@ app.use("/uploads", express.static(path.join(__dirname, "uploads")));
 
 // Connect to MongoDB
 mongoose
-  .connect(process.env.MONGODB_URI || "mongodb+srv://mlrd:mlrddreamscloudtech@cluster0.yzhly.mongodb.net/", {
+  .connect(process.env.MONGODB_URI || "abc", {
     useNewUrlParser: true,
     useUnifiedTopology: true,
   })
